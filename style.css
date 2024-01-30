@@ -1,0 +1,332 @@
+/* Young Serif */
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+/* Outfit */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(30, 54%, 90%);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+.container .card {
+  background-color: white;
+  border-radius: 25px;
+  width: 950px;
+  height: auto;
+  padding: 2rem;
+}
+
+.container .card .card-body .card-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.container .card .card-body .card-title {
+  font-size: 42px;
+  color: hsl(24, 5%, 18%);
+  font-family: "Young Serif", sans-serif;
+  margin-bottom: 1rem;
+}
+
+.container .card .card-body .card-description p {
+  font-size: 16px;
+  color: hsl(30, 10%, 34%);
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.container .card .card-body .card-description .card-rectangle {
+  width: 100%;
+  height: auto;
+  background-color: hsl(330, 100%, 98%);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.container .card .card-body .card-description .card-rectangle h4 {
+  font-size: 20px;
+  color: hsl(332, 51%, 32%);
+}
+
+.container .card .card-body .card-description .card-rectangle ul {
+  padding: 1rem;
+  line-height: 2;
+}
+
+.container .card .card-body .card-description .card-rectangle li {
+  color: hsl(30, 10%, 34%);
+}
+
+.container .card .card-body .card-description .card-rectangle li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+.container .card .card-body .card-description .card-ingredients {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.container .card .card-body .card-description .card-ingredients h2 {
+  font-size: 32px;
+  font-family: "Young Serif", sans-serif;
+  font-weight: 400;
+  color: hsl(14, 45%, 36%);
+}
+
+.container .card .card-body .card-description .card-ingredients ul {
+  padding: 1rem;
+  line-height: 2;
+}
+
+.container .card .card-body .card-description .card-ingredients li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+.container .card .card-body .card-description .card-ingredients li {
+  color: hsl(30, 10%, 34%);
+}
+
+.container .card .card-body .card-description .card-ingredients hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid hsl(30, 10%, 34%);
+}
+
+.container .card .card-body .card-description .card-instructions h2 {
+  font-size: 32px;
+  font-family: "Young Serif", sans-serif;
+  font-weight: 400;
+  color: hsl(14, 45%, 36%);
+}
+
+.container .card .card-body .card-description .card-instructions ol {
+  padding: 1rem;
+  line-height: 2;
+}
+
+.container .card .card-body .card-description .card-instructions li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+.container .card .card-body .card-description .card-instructions li {
+  color: hsl(30, 10%, 34%);
+}
+
+.container .card .card-body .card-description .card-instructions hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid hsl(30, 10%, 34%);
+}
+
+.container .card .card-body .card-description .card-nutrition h2 {
+  font-size: 32px;
+  font-family: "Young Serif", sans-serif;
+  font-weight: 400;
+  color: hsl(14, 45%, 36%);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.container .card .card-body .card-description .card-nutrition p {
+  font-size: 16px;
+  color: hsl(30, 10%, 34%);
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.container
+  .card
+  .card-body
+  .card-description
+  .card-nutrition
+  .card-table
+  table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.container
+  .card
+  .card-body
+  .card-description
+  .card-nutrition
+  .card-table
+  table
+  tr {
+  border-bottom: 1px solid hsl(30, 10%, 34%);
+}
+
+.container
+  .card
+  .card-body
+  .card-description
+  .card-nutrition
+  .card-table
+  table
+  tr
+  td {
+  padding: 1rem;
+  color: hsl(30, 10%, 34%);
+}
+
+.container
+  .card
+  .card-body
+  .card-description
+  .card-nutrition
+  .card-table
+  table
+  tr
+  td
+  b {
+  color: hsl(14, 45%, 36%);
+}
+
+@media (max-width: 375px) {
+  .container {
+    padding: 0;
+  }
+
+  .container .card {
+    padding: 0;
+  }
+
+  .container .card .card-body .card-title {
+    font-size: 32px;
+    padding: 1rem;
+    margin-bottom: 0;
+  }
+
+  .container .card .card-body .card-description p {
+    padding: 1rem;
+  }
+
+  .container .card .card-body .card-description {
+    padding: 1rem;
+  }
+
+  .container .card .card-body .card-description .card-rectangle {
+    width: 100%;
+    height: auto;
+    background-color: hsl(330, 100%, 98%);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+  }
+
+  .container .card .card-body .card-description .card-rectangle h4 {
+    font-size: 18px;
+    color: hsl(332, 51%, 32%);
+  }
+
+  .container .card .card-body .card-description .card-ingredients {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    padding: 1rem;
+  }
+
+  .container .card .card-body .card-description .card-ingredients h2 {
+    font-size: 24px;
+    font-family: "Young Serif", sans-serif;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+  }
+
+  .container .card .card-body .card-description .card-instructions {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    padding: 1rem;
+  }
+
+  .container .card .card-body .card-description .card-instructions h2 {
+    font-size: 24px;
+    font-family: "Young Serif", sans-serif;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+  }
+
+  .container .card .card-body .card-description .card-nutrition h2 {
+    font-size: 24px;
+    font-family: "Young Serif", sans-serif;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+  .container .card .card-body .card-description .card-nutrition {
+    padding: 1rem;
+  }
+
+  .container .card .card-body .card-description .card-nutrition p {
+    padding: 0;
+  }
+
+  .container
+    .card
+    .card-body
+    .card-description
+    .card-nutrition
+    .card-table
+    table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .container
+    .card
+    .card-body
+    .card-description
+    .card-nutrition
+    .card-table
+    table
+    tr {
+    border-bottom: 1px solid hsl(30, 10%, 34%);
+  }
+
+  .container
+    .card
+    .card-body
+    .card-description
+    .card-nutrition
+    .card-table
+    table
+    tr
+    td {
+    padding: 1rem;
+    color: hsl(30, 10%, 34%);
+  }
+
+  .container
+    .card
+    .card-body
+    .card-description
+    .card-nutrition
+    .card-table
+    table
+    tr
+    td
+    b {
+    color: hsl(14, 45%, 36%);
+  }
+}
